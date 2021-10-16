@@ -1,0 +1,41 @@
+.customFooter {
+
+	display: inline-flex;
+	align-items: center;
+
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+
+	margin-right: 2vw !important;
+	margin-bottom: 2vw !important;
+
+	color: white;
+	font-weight: 600;
+}
+
+.customFooter p {
+
+	flex: 1 1 100%;
+
+	margin-right: 10px;
+
+	text-transform: initial !important;
+}
+
+.customFooter a {
+
+	color: white !important;
+	text-decoration: none;
+}
+
+.customFooter a:hover {
+
+	color: #2B6CB0 !important;
+} 
+
+.customFooter img {
+
+	height: 40px;
+	width: 40px;
+}
