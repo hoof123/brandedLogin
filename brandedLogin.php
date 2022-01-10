@@ -38,7 +38,7 @@ function customLoginFooter() {
 	<div class="customFooter">
 
 		<!-- text -->
-		<p>design by <a href="https://jpcreativemedia.ca" target="_blank">JP Creative Media</a></p>
+		<p>designed and powered by <a href="https://jpcreativemedia.ca" target="_blank">JP Creative Media</a></p>
 		
 		<!-- img -->
 		<img src="/wp-content/mu-plugins/brandedLogin/assets/jpcreativemedia-logo.png">
@@ -86,16 +86,14 @@ function customLoginRedirect( $redirect_to, $request, $user ) {
 
 	if ( isset( $user->roles ) && is_array( $user->roles ) ) {
 
-			if( in_array('administrator', $user->roles)) {
+		if( in_array('administrator', $user->roles)) {
 
-					return admin_url();
-				} else {
+			return admin_url();
 
-					return home_url();
-				}
-  			} else {
+		} else {
 
-  				return home_url();
-  			}
+			return home_url();
+		}
+  	} 
 }
 ?>
