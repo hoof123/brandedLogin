@@ -1,31 +1,51 @@
 /* logo */
 body.login div#login h1 a {
 			
-	background-image: url(../assets/submark-black.svg);
+	background-image: url(../assets/logo.svg);
 	background-size: 150px;
-	height: 150px;
+	height: 200px;
 	width: 150px;
 
 	margin-bottom: 4vh;
-
 }
 
 /* body */
-body {
+body::before {
+
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
 			
-	background-image: url(../assets/hero-01.jpg) !important;
+	background-image: url(../assets/leaves-with-water-beads-jaimie-phillips-unsplash.jpg) !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	background-position: 0px 0px !important;
+
+	filter: brightness(60%);
+}
+
+body {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	text-transform: lowercase !important;
 }
 
 /* form */
 #login {
 
-	padding-top: 5% !important;
+	position: relative;
+
+	padding-top: 0% !important;
+	/*
 	margin-top: auto;
 	margin-bottom: auto;
+	*/
 }
+
  /* links */
 .login a, p#nav a {
 

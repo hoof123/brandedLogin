@@ -38,7 +38,7 @@ function customLoginFooter() {
 	<div class="customFooter">
 
 		<!-- text -->
-		<p>Design by <a href="https://jpcreativemedia.ca" target="_blank">JP Creative Media</a></p>
+		<p>design by <a href="https://jpcreativemedia.ca" target="_blank">JP Creative Media</a></p>
 		
 		<!-- img -->
 		<img src="/wp-content/mu-plugins/brandedLogin/assets/jpcreativemedia-logo.png">
@@ -49,18 +49,18 @@ function customLoginFooter() {
 // login logo URL
 function customLogoURL() {
 
-	return 'https://www.dougephotography.com';
+	return 'https://bodhibodies.ca/';
 }
 
 function customLogoTitle($titleText) {
 
-	$titleText = esc_html__( 'Doug E. Photography', 'plugin-textdomain' );
+	$titleText = esc_html__( 'Bodhi Bodies Wellness', 'plugin-textdomain' );
     return $titleText;
 }
 
 function customLogoHeaderText($headerText) {
 
-    $headerText = esc_html__( 'Doug E. Photography', 'plugin-textdomain' );
+    $headerText = esc_html__( 'Bodhi Bodies Wellness', 'plugin-textdomain' );
     return $headerText;
 }
 
